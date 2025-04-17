@@ -1,0 +1,28 @@
+---
+version: '3'
+
+# common properties
+x-common: &common
+  tty: true
+  stdin_open: true
+
+services:
+  fdroid:
+    <<: *common
+    build:
+      context: .
+      dockerfile: fdroid/Dockerfile
+    env_file:
+      - fdroid/env
+    volumes:
+      - ./fdroiddata:/app/fdroiddata
+
+  apksigtool:
+    <<: *common
+    build:
+      context: .
+      dockerfile: apksigtool/Dockerfile
+    env_file:
+      - apksigtool/env
+    volumes:
+      - ./data:/app/data

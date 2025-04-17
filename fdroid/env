@@ -1,0 +1,8 @@
+PROJECT_APP_ID=com.nizarmah.igatha
+PROJECT_REPO_URL=https://github.com/nizarmah/igatha
+PROJECT_REPO_TAG=v1.0.0
+PROJECT_REPO_DIR=Android/app
+# comma separated list from https://f-droid.org/docs/Build_Metadata_Reference/#Categories
+PROJECT_CATEGORIES=Security
+# identifier from https://spdx.org/licenses/
+PROJECT_LICENSE=MIT

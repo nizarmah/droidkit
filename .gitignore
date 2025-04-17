@@ -1,0 +1,19 @@
+*
+
+!README.md
+
+!.gitkeep
+!.gitignore
+
+!Dockerfile
+!docker-compose.yml
+!env
+
+# data for clients
+!data
+
+# fdroid client
+!fdroid
+
+# apksigtool client
+!apksigtool
